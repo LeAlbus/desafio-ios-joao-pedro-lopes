@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		135D69281923AA52D52A5782 /* Pods_desafio_ios_pedro_lopesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A618408130B28C102867FD /* Pods_desafio_ios_pedro_lopesTests.framework */; };
 		25BF1B53ED6D5B6C72C62FC2 /* Pods_desafio_ios_pedro_lopes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400A317A0230F1DBE79A4069 /* Pods_desafio_ios_pedro_lopes.framework */; };
+		A04A0D9B241718E300B5FD95 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A0D9A241718E300B5FD95 /* String+MD5.swift */; };
 		A0D8CFC02415A2910061AE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFBF2415A2910061AE73 /* AppDelegate.swift */; };
 		A0D8CFC22415A2910061AE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFC12415A2910061AE73 /* SceneDelegate.swift */; };
-		A0D8CFC42415A2910061AE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFC32415A2910061AE73 /* ViewController.swift */; };
 		A0D8CFC72415A2910061AE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D8CFC52415A2910061AE73 /* Main.storyboard */; };
 		A0D8CFC92415A2920061AE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D8CFC82415A2920061AE73 /* Assets.xcassets */; };
 		A0D8CFCC2415A2920061AE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D8CFCA2415A2920061AE73 /* LaunchScreen.storyboard */; };
 		A0D8CFD72415A2920061AE73 /* desafio_ios_pedro_lopesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFD62415A2920061AE73 /* desafio_ios_pedro_lopesTests.swift */; };
+		A0D8CFE82415F92F0061AE73 /* HeroListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFE72415F92F0061AE73 /* HeroListTableViewController.swift */; };
+		A0D8CFEA2415FE010061AE73 /* HeroListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFE92415FE010061AE73 /* HeroListInteractor.swift */; };
+		A0D8CFED2415FE450061AE73 /* HeroListAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFEC2415FE450061AE73 /* HeroListAPIWorker.swift */; };
+		A0D8CFF12415FF4E0061AE73 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFF02415FF4E0061AE73 /* HeroModel.swift */; };
+		A0D8CFF3241600950061AE73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8CFF2241600950061AE73 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,10 @@
 		79A618408130B28C102867FD /* Pods_desafio_ios_pedro_lopesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_ios_pedro_lopesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80245F228CA5CA9BB91630F0 /* Pods-desafio-ios-pedro-lopes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-pedro-lopes.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-pedro-lopes/Pods-desafio-ios-pedro-lopes.release.xcconfig"; sourceTree = "<group>"; };
 		82C2F8A5E1755DCA03C7BF50 /* Pods-desafio-ios-pedro-lopesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-pedro-lopesTests.release.xcconfig"; path = "Target Support Files/Pods-desafio-ios-pedro-lopesTests/Pods-desafio-ios-pedro-lopesTests.release.xcconfig"; sourceTree = "<group>"; };
+		A04A0D9A241718E300B5FD95 /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		A0D8CFBC2415A2910061AE73 /* desafio-ios-pedro-lopes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-pedro-lopes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D8CFBF2415A2910061AE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D8CFC12415A2910061AE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0D8CFC32415A2910061AE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0D8CFC62415A2910061AE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0D8CFC82415A2920061AE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D8CFCB2415A2920061AE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		A0D8CFD22415A2920061AE73 /* desafio-ios-pedro-lopesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-ios-pedro-lopesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D8CFD62415A2920061AE73 /* desafio_ios_pedro_lopesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_ios_pedro_lopesTests.swift; sourceTree = "<group>"; };
 		A0D8CFD82415A2920061AE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D8CFE72415F92F0061AE73 /* HeroListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListTableViewController.swift; sourceTree = "<group>"; };
+		A0D8CFE92415FE010061AE73 /* HeroListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListInteractor.swift; sourceTree = "<group>"; };
+		A0D8CFEC2415FE450061AE73 /* HeroListAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListAPIWorker.swift; sourceTree = "<group>"; };
+		A0D8CFF02415FF4E0061AE73 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		A0D8CFF2241600950061AE73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB73D090FC9A855498316D9E /* Pods-desafio-ios-pedro-lopes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-ios-pedro-lopes.debug.xcconfig"; path = "Target Support Files/Pods-desafio-ios-pedro-lopes/Pods-desafio-ios-pedro-lopes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,13 +110,10 @@
 		A0D8CFBE2415A2910061AE73 /* desafio-ios-pedro-lopes */ = {
 			isa = PBXGroup;
 			children = (
-				A0D8CFBF2415A2910061AE73 /* AppDelegate.swift */,
-				A0D8CFC12415A2910061AE73 /* SceneDelegate.swift */,
-				A0D8CFC32415A2910061AE73 /* ViewController.swift */,
-				A0D8CFC52415A2910061AE73 /* Main.storyboard */,
-				A0D8CFC82415A2920061AE73 /* Assets.xcassets */,
-				A0D8CFCA2415A2920061AE73 /* LaunchScreen.storyboard */,
-				A0D8CFCD2415A2920061AE73 /* Info.plist */,
+				A0D8CFEE2415FF060061AE73 /* Models */,
+				A0D8CFEB2415FE100061AE73 /* Workers */,
+				A0D8CFE22415F5730061AE73 /* List */,
+				A0D8CFE12415C0D90061AE73 /* Utils */,
 			);
 			path = "desafio-ios-pedro-lopes";
 			sourceTree = "<group>";
@@ -120,6 +127,46 @@
 			path = "desafio-ios-pedro-lopesTests";
 			sourceTree = "<group>";
 		};
+		A0D8CFE12415C0D90061AE73 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8CFBF2415A2910061AE73 /* AppDelegate.swift */,
+				A0D8CFC12415A2910061AE73 /* SceneDelegate.swift */,
+				A0D8CFC52415A2910061AE73 /* Main.storyboard */,
+				A0D8CFC82415A2920061AE73 /* Assets.xcassets */,
+				A0D8CFCA2415A2920061AE73 /* LaunchScreen.storyboard */,
+				A0D8CFCD2415A2920061AE73 /* Info.plist */,
+				A0D8CFF2241600950061AE73 /* Constants.swift */,
+				A04A0D9A241718E300B5FD95 /* String+MD5.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0D8CFE22415F5730061AE73 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8CFE72415F92F0061AE73 /* HeroListTableViewController.swift */,
+				A0D8CFE92415FE010061AE73 /* HeroListInteractor.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A0D8CFEB2415FE100061AE73 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8CFEC2415FE450061AE73 /* HeroListAPIWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		A0D8CFEE2415FF060061AE73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8CFF02415FF4E0061AE73 /* HeroModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D039FB16BE16914C98B80A5E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +175,6 @@
 				4AC9938E4102C69F41B64441 /* Pods-desafio-ios-pedro-lopesTests.debug.xcconfig */,
 				82C2F8A5E1755DCA03C7BF50 /* Pods-desafio-ios-pedro-lopesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -305,9 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D8CFC42415A2910061AE73 /* ViewController.swift in Sources */,
+				A0D8CFEA2415FE010061AE73 /* HeroListInteractor.swift in Sources */,
+				A0D8CFE82415F92F0061AE73 /* HeroListTableViewController.swift in Sources */,
 				A0D8CFC02415A2910061AE73 /* AppDelegate.swift in Sources */,
+				A04A0D9B241718E300B5FD95 /* String+MD5.swift in Sources */,
 				A0D8CFC22415A2910061AE73 /* SceneDelegate.swift in Sources */,
+				A0D8CFF3241600950061AE73 /* Constants.swift in Sources */,
+				A0D8CFED2415FE450061AE73 /* HeroListAPIWorker.swift in Sources */,
+				A0D8CFF12415FF4E0061AE73 /* HeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
-				INFOPLIST_FILE = "desafio-ios-pedro-lopes/Info.plist";
+				INFOPLIST_FILE = "desafio-ios-pedro-lopes/Utils/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
-				INFOPLIST_FILE = "desafio-ios-pedro-lopes/Info.plist";
+				INFOPLIST_FILE = "desafio-ios-pedro-lopes/Utils/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
